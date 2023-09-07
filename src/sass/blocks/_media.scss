@@ -1,0 +1,197 @@
+@media (max-width: 1560px) {
+	.header {
+		&-lists {
+			margin-left: 40%;
+		}
+	}
+}
+
+
+
+@media (max-width: 1200px) {
+	.header {
+		&-lists {
+			margin-left: 32%;
+		}
+	}
+	.our__header_title {
+		width: 688px;
+		display: grid;
+		grid-template-columns: 340px 340px;
+		gap: 25px;
+	}
+	.nature__honey-pot {
+		width: 86%;
+		img {
+			width: 75%;	
+		}
+	}
+	.tried {
+		min-height: 591.264px;
+	}
+	.tried__pot {
+		width: 86%;
+		img {
+			width: 75%;
+		}
+	}
+	.product__boxes-box-2 {
+		height: 170px;
+		width: 205px;
+	}
+	.product-img-1 {
+		width: 134px;
+		margin-top: -97%;
+	}
+	.product-img-2 {
+		width: 103px;
+		margin-top: -97%;
+		margin-left: 90%;
+	}
+	.footer__wrapper-links {
+		margin-top: -2%;
+		a {
+			svg {
+				display: block;
+				width: 80%;
+			}
+		}
+	}
+	.main__btn {
+		padding: 18px 40px;
+	}
+	.main__btn-black {
+		width: 140px;
+	}
+	.main__btn-transparent {
+		width: 169px;
+	}
+}
+@media (max-width: 991px) {
+	.header-lists {
+		margin-left: 17%;
+	}
+	.main-btns {
+		margin: 0 0 0 120px;
+	}
+	.main__btn {
+		padding: 18px 20px;
+	}
+	.main__btn-black {
+		width: 110px;
+	}
+	.main__btn-transparent {
+		width: 129px;
+	}
+	.product__boxes {
+		display: grid;
+	}
+	.product__line-title {
+		display: block;
+		width: 450px;
+		text-align: center;
+	}
+	.footer__wrapper-text {
+		margin-top: -5%;
+	}
+	.footer__div {
+		padding-top: 50px;
+	}
+	.our__header {
+		width: 620px;
+	}
+	.our__header_title {
+		width: 618px;
+		grid-template-columns: 300px 300px;
+	}
+	.nature__honey {
+		min-height: 505px;
+	}
+	.tried {
+		min-height: 425.264px;
+	}
+	.tried__disc {
+		margin-top: 1%;
+	}
+}
+@media (max-width: 767px) {
+	.header-lists {
+		position: fixed;
+		top: 0;
+		right: -100%;
+		width: 50%;
+		height: 100vh;
+		background-color: rgba(0,0,0, .8);
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: 0.8s;
+	}
+	.header-active {
+		right: 0;
+		z-index: 1;
+	}
+	.header-link {
+		color: #fff;
+	}
+	.header-item {
+		margin: 10px 0;
+	}
+	.hamburger {
+		display: block;
+		position: absolute;
+		left: 15px;
+		width: 26px;
+		height: 18px;
+		top: 5%;
+		span {
+			display: block;
+			height: 2px;
+			width: 100%;
+			background-color: #000;
+			margin-bottom: 3px;
+			transition: 0.6s all;
+		}
+		&__active {
+			span {
+				margin-bottom: -3px;
+				&:first-child {
+					transform: rotate(-45deg);
+				}
+				&:nth-child(2) {
+					display: none;
+				}
+				&:nth-child(3) {
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+	.nature__honey-pot {
+		width: 47%;
+	}
+	.nature__honey-disc {
+		width: 327px;
+		margin-top: 25%;
+	}
+	.our__header_title {
+		width: 518px;
+		grid-template-columns: 250px 260px;
+	}
+	.main__btn-transparent {
+		width: 109px;
+	}
+	.main__btn {
+		padding: 10px 10px;
+	}
+	.container-2 {
+		margin-top: 30px;
+	}
+	.footer__wrapper-text {
+		margin-top: -8%;
+		height: 120px;
+	}
+	.footer__wrapper-links a svg {
+		width: 174%;
+	}
+}

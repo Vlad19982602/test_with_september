@@ -1,0 +1,29 @@
+.nature__honey {
+	min-height: 785px;
+	display: flex;
+	&-pot {
+		margin-top: 130px;
+		width: 65%;
+		height: 100%;
+	}
+	&-disc {
+		width: 378px;
+		margin-top: 25%;
+		&_text1 {
+			color: #000;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 32px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 145%; /* 65.25px */
+		}
+		&_text2 {
+			color: #000;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 160%; /* 35.2px */
+		}
+	}
+}

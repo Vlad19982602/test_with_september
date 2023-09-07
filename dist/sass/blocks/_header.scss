@@ -1,0 +1,42 @@
+.header-wrapper {
+    display: flex;
+
+}
+
+.header-lists {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 46%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-img {
+    margin-top: 2px;
+    width: 92.222px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 10%;
+}
+
+.header-item {
+    margin: 0 20px;
+    transition: 0.5s all;
+}
+
+.header-link {
+    text-decoration: none;
+    &:hover {
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: orangered;
+        }
+    }
+}
+
+.hamburger {
+    display: none;
+}

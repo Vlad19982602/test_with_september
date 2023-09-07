@@ -1,0 +1,36 @@
+.our__header {
+	&-disc {
+		color: #000;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 45px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 160%; /* 72px */
+	}
+	&_title{
+		display: flex;
+		margin-top: 50px;
+		width: 995px;
+		justify-content: space-between;
+		&-titles-1 {
+			width: 144.299px;
+			height: 32.341px;
+			flex-shrink: 0;
+		}
+		&-titles-2 {
+			width: 228.232px;
+			height: 37.88px;
+			flex-shrink: 0;
+		}
+		&-titles-3 {
+			width: 204.738px;
+			height: 36.961px;
+			flex-shrink: 0;
+		}
+		&-titles-4 {
+			width: 263.345px;
+			height: 35.056px;
+			flex-shrink: 0;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.tried {
+	min-height: 784.264px;
+	display: flex;
+	&__pot {
+		margin-top: 130px;
+		width: 65%;
+		height: 100%;
+	}
+	&__disc {
+		margin-top: 21%;
+		width: 378px;
+		margin-left: 11%;
+		&-title {
+			color: #000;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 32px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 145%; /* 65.25px */
+		}
+		&-text {
+			color: #000;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 160%; /* 35.2px */
+		}
+	}
+}

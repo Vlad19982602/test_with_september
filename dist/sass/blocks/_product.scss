@@ -1,0 +1,62 @@
+.product{
+	&__line {
+		display: flex;
+		justify-content: space-between;
+		&-title {
+			color: #000;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 160%; /* 72px */
+		}
+		&-descr {
+			color: #E58211;
+			text-align: right;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 160%; /* 28.8px */
+			text-decoration-line: none;
+		}
+	}
+	&__boxes {
+		display: flex;
+		justify-content: space-around;
+		&-box {
+			padding: 45px 0 44px 0px;
+			&-1 {
+				color: #000;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 28px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 140%; /* 39.2px */
+			}
+			&-2 {
+				width: 340px;
+				color: #000;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 160%; /* 25.6px */
+			}
+		}
+	}
+	&-img-1 {
+		margin-top: -52%;
+		margin-left: 76%;
+		width: 234px;
+		height: 248px;
+		background: url('../../img/eucalypt.png') center (center/cover) no-repeat;
+	}
+	&-img-2 {
+		margin-top: -52%;
+		margin-left: 85%;
+		width: 103px;
+		height: 219px;
+		background: url('../../img/basswoo.png') center (center/cover) no-repeat;
+	}
+}
